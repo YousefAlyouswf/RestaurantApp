@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/arabic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="arabic"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="عربي"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arabic"
+        android:onClick="english"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="English" />
+
+</RelativeLayout>
